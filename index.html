@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body{
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        
+
+        #google-img-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #google-img-div > img {
+            width: 280px;
+        }
+
+        #search-bar{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            /* background-color: aqua */
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+        }
+
+
+        #search-bar a {
+            text-decoration: none;
+            color:dodgerblue;
+        }
+
+        #search-bar > div {
+            margin: 0 5px;
+        }
+
+        #lucky-search{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #lucky-search > span {
+            margin: 0px 10px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            width: 130px;
+            text-align: center;
+            height: 30px;
+            margin-top: 5px;
+                
+        }
+        #lucky-search  a{
+            text-decoration: none;
+            color: black;
+            
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        #google-lang > a{
+            text-decoration: none;
+            margin: 0px 6px;
+            
+        }
+
+        #google-lang{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            align-items: center;
+            font-size: 13px;
+        }
+
+        #search{
+
+            width: 350px;
+            border: none;
+            outline: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 40px;
+            text-align: left;
+            margin-top: 8px; 
+            
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="main-div">
+        <div id="google-img-div">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.SqEICC59PL1VrdefhGEqqgHaCg&pid=Api&P=0&h=180" alt="">
+        </div>
+        <div id="search-bar">
+            <div style="margin-left: 13px;" >
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </a>
+            </div>
+                
+            <div id="search-div">
+                <input id="search"  type="text"> 
+            </div>
+            <div>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
+                        <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>
+                    </svg>
+                </a>
+            </div>
+            <div style="margin-right: 12px;">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
+                        <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div id="lucky-search">
+            <span>
+                <a href="">I'm feeling Lucky</a>
+            </span>
+            <span>
+                <a href="">Google Search</a>
+            </span>
+        </div>
+        <div id="google-lang">Google offered in : 
+            <a href="" >Urdu</a>
+            <a href="">Phasto</a>
+            <a href="">Sindhi</a>
+        </div>
+    </div>
+</body>
+</html>
